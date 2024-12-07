@@ -5,7 +5,7 @@ first_n = int(input('Введите первое число: '))
 second_n = int(input('Введите второе число: '))
 third_n = second_n * first_n
 if third_n < 0:
-    third_n = 8 * third_n
+    third_n *= 8
 else:
-    third_n = 1,5 * third_n
+    third_n *= 1.5
 print(third_n)
